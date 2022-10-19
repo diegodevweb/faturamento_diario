@@ -11,7 +11,7 @@
 <section>
     <pre>
         <?php
-           $valores = array(
+          /* $valores = array(
                 'Semana 1'=> array  ('Dia 01' => 22174.1664,
                 /*$dados*/           'Dia 02' => 24537.6698,
                                      /*data*/    /*user_data*/
@@ -65,7 +65,7 @@
             echo "</br>A média do faturamento mensal é de: R$ ".$media;
             echo "</br>";
     
-            echo "</br>OS dias com faturamento acima da média foram: ";
+            echo "</br>Os dias com faturamento acima da média foram: ";
             foreach($valores as $semana => $dados_array) {                    //$valores é o nome do vetor.
                 foreach($dados_array as $dia => $valorDoDia) {
                      if ($valorDoDia > $media) {
